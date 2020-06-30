@@ -2,7 +2,7 @@ import AWS = require('aws-sdk');
 import { config } from './config/config';
 
 const c = config.dev;
-
+console.log(c);
 //Configure AWS
 var credentials = new AWS.SharedIniFileCredentials({profile: 'default'});
 AWS.config.credentials = credentials;
