@@ -7,6 +7,6 @@ data:
   JWT_SECRET: helloworld
   POSTGRESS_DB: udagramsimoesdev
   POSTGRESS_HOST: udagramsimoesdev.cujry5cxoodq.eu-central-1.rds.amazonaws.com
-  URL: http://localhost:8100  
+  URL: http://a5a39c9d85c7e4cf6a80109443543839-2020584078.eu-central-1.elb.amazonaws.com:8100
 metadata:
   name: env-config
